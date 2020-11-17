@@ -1,0 +1,5 @@
+{"level":"info","message":"Hello User","service":"user-service","timestamp":"2020-11-17 16:25:12"}
+{"level":"info","message":"Hello User","service":"user-service","timestamp":"2020-11-17 16:39:20"}
+{"level":"info","message":"Hello User","service":"user-service","timestamp":"2020-11-17 16:39:23"}
+{"level":"info","message":"Hello User","service":"user-service","timestamp":"2020-11-17 16:39:55"}
+{"level":"error","message":"Error occurred in Users route","service":"user-service","timestamp":"2020-11-17 16:39:55"}
