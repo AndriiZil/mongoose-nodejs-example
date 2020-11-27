@@ -1,4 +1,4 @@
-const { model, Schema } = require('mongoose');
+const { model, Schema, Types } = require('mongoose');
 
 const UserSchema = new Schema({
     name: {
@@ -14,11 +14,15 @@ const UserSchema = new Schema({
         required: true,
         min: 1,
         max: 100
-    }
+    },
+    addresses: [{
+        type: Types.ObjectId,
+        ref: 'Address'
+    }]
 });
 
 UserSchema.virtual('fullInfo').get(function () {
     return `${this.name} - ${this.age}`;
-})
+});
 
-module.exports = model('user', UserSchema);
+module.exports = model('User', UserSchema);

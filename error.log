@@ -1,1 +1,4 @@
 {"level":"error","message":"Error occurred in Users route","service":"user-service","timestamp":"2020-11-17 16:39:55"}
+{"level":"error","message":"Error occurred in Users \"post\" route MESSAGE: Cannot destructure property 'name' of 'req.body' as it is undefined.","service":"user-service","timestamp":"2020-11-27 10:11:23"}
+{"level":"error","message":"Error occurred in Article \"post\" route MESSAGE: Article validation failed: description: Path `description` is required., title: Path `title` is required.","service":"user-service","timestamp":"2020-11-27 10:56:49"}
+{"level":"error","message":"Error occurred in Users \"post\" route MESSAGE: User.create is not a function","service":"user-service","timestamp":"2020-11-27 11:45:40"}
